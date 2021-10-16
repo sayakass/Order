@@ -1,10 +1,10 @@
-import menu1 from './images/1.png';
-import menu2 from './images/2.png';
-import menu3 from './images/3.png';
-import menu4 from './images/4.png';
-import menu5 from './images/5.png';
-import menu6 from './images/6.png';
-import menu7 from './images/7.png';
+import menu1 from '../images/1.png';
+import menu2 from '../images/2.png';
+import menu3 from '../images/3.png';
+import menu4 from '../images/4.png';
+import menu5 from '../images/5.png';
+import menu6 from '../images/6.png';
+import menu7 from '../images/7.png';
 
 function UserMenus() {
   return (
@@ -31,13 +31,9 @@ function UserMenus() {
                   <div className="menu-price-amount">
                     <div className="menu-price tc-dark tr">$12.52</div>
                     <div className="menu-amount tc-dark tr">
-                      <a href="">
-                        <span className="tc-dark tm">-</span>
-                      </a>
+                      <span className="tc-dark tm">-</span>
                       <span className="amount-span">2</span>
-                      <a href="">
-                        <span className="tc-dark tm">+</span>
-                      </a>
+                      <span className="tc-dark tm">+</span>
                     </div>
                   </div>
                 </div>
@@ -50,13 +46,9 @@ function UserMenus() {
                   <div className="menu-price-amount">
                     <div className="menu-price tc-dark tr">$12.52</div>
                     <div className="menu-amount tc-dark tr">
-                      <a href="">
-                        <span className="tc-dark tm">-</span>
-                      </a>
+                      <span className="tc-dark tm">-</span>
                       <span className="amount-span">2</span>
-                      <a href="">
-                        <span className="tc-dark tm">+</span>
-                      </a>
+                      <span className="tc-dark tm">+</span>
                     </div>
                   </div>
                 </div>
@@ -69,13 +61,9 @@ function UserMenus() {
                   <div className="menu-price-amount">
                     <div className="menu-price tc-dark tr">$12.52</div>
                     <div className="menu-amount tc-dark tr">
-                      <a href="">
-                        <span className="tc-dark tm">-</span>
-                      </a>
+                      <span className="tc-dark tm">-</span>
                       <span className="amount-span">2</span>
-                      <a href="">
-                        <span className="tc-dark tm">+</span>
-                      </a>
+                      <span className="tc-dark tm">+</span>
                     </div>
                   </div>
                 </div>
@@ -88,13 +76,9 @@ function UserMenus() {
                   <div className="menu-price-amount">
                     <div className="menu-price tc-dark tr">$12.52</div>
                     <div className="menu-amount tc-dark tr">
-                      <a href="">
-                        <span className="tc-dark tm">-</span>
-                      </a>
+                      <span className="tc-dark tm">-</span>
                       <span className="amount-span">2</span>
-                      <a href="">
-                        <span className="tc-dark tm">+</span>
-                      </a>
+                      <span className="tc-dark tm">+</span>
                     </div>
                   </div>
                 </div>
@@ -107,13 +91,9 @@ function UserMenus() {
                   <div className="menu-price-amount">
                     <div className="menu-price tc-dark tr">$12.52</div>
                     <div className="menu-amount tc-dark tr">
-                      <a href="">
-                        <span className="tc-dark tm">-</span>
-                      </a>
+                      <span className="tc-dark tm">-</span>
                       <span className="amount-span">2</span>
-                      <a href="">
-                        <span className="tc-dark tm">+</span>
-                      </a>
+                      <span className="tc-dark tm">+</span>
                     </div>
                   </div>
                 </div>
@@ -126,13 +106,9 @@ function UserMenus() {
                   <div className="menu-price-amount">
                     <div className="menu-price tc-dark tr">$12.52</div>
                     <div className="menu-amount tc-dark tr">
-                      <a href="">
-                        <span className="tc-dark tm">-</span>
-                      </a>
+                      <span className="tc-dark tm">-</span>
                       <span className="amount-span">2</span>
-                      <a href="">
-                        <span className="tc-dark tm">+</span>
-                      </a>
+                      <span className="tc-dark tm">+</span>
                     </div>
                   </div>
                 </div>
@@ -145,13 +121,9 @@ function UserMenus() {
                   <div className="menu-price-amount">
                     <div className="menu-price tc-dark tr">$12.52</div>
                     <div className="menu-amount tc-dark tr">
-                      <a href="">
-                        <span className="tc-dark tm">-</span>
-                      </a>
+                      <span className="tc-dark tm">-</span>
                       <span className="amount-span">2</span>
-                      <a href="">
-                        <span className="tc-dark tm">+</span>
-                      </a>
+                      <span className="tc-dark tm">+</span>
                     </div>
                   </div>
                 </div>

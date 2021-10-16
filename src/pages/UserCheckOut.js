@@ -1,5 +1,5 @@
-import arrow from './images/arrow.png';
-import co2 from './images/co2.png';
+import arrow from '../images/arrow.png';
+import co2 from '../images/co2.png';
 
 function UserCheckOut() {
   return (

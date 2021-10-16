@@ -1,16 +1,23 @@
+import { Link } from 'react-router-dom';
+
 function UserRegister() {
   return (
     <>
       <div className="desktop-container">
         <div className="box-container">
           <div className="box-title">
-            <div className="t48 tb tc-red">Order!</div>
+            <div className="t48 tb tc-red">
+              {' '}
+              <Link className="tlink-red" to="/">
+                Order!
+              </Link>
+            </div>
             <div className="t24 tm tc-dark">Sign up</div>
             <div>
               <span className="tr tc-ligh-grey t12">Already have an account?</span>
-              <a href="#">
-                <span className="tr tc-blue t12">&nbsp; Sign in</span>
-              </a>
+              <Link className="tlink-blue" to="/sign-in">
+                &nbsp; Sign in
+              </Link>
             </div>
           </div>
           <form action="" className="form-first f-column">

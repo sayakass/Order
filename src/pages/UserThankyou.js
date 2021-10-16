@@ -1,4 +1,4 @@
-import thankyou from './images/thankyou.png';
+import thankyou from '../images/thankyou.png';
 
 function UserThankyou() {
   return (

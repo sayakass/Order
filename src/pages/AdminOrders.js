@@ -1,3 +1,6 @@
+import { Link } from 'react-router-dom';
+import '../App.css';
+
 function AdminOrders() {
   return (
     <>
@@ -5,7 +8,11 @@ function AdminOrders() {
         <div className="nine">
           <div className="nine-button-container">
             <button className="nine-button active">view Orders</button>
-            <button className="nine-button not-active">manage Menus</button>
+            <button className="nine-button not-active">
+              <Link className="tlink-black" to="/admin-menus">
+                manage Menus
+              </Link>
+            </button>
           </div>
           <div className="nine-orders tc-dark">Orders</div>
           <div className="nine-order">

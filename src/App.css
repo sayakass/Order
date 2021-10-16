@@ -72,6 +72,10 @@
   color: rgb(219, 50, 54);
 }
 
+.tc-red:hover {
+  color: rgb(219, 50, 54);
+}
+
 .tc-blue {
   color: rgb(14, 125, 227);
 }
@@ -88,11 +92,7 @@
   color: rgb(27, 27, 27);
 }
 
-.tc-white,
-a:link,
-a:visited,
-a:active,
-a:hover {
+.tc-white {
   color: white;
   text-decoration: none;
 }
@@ -115,6 +115,59 @@ a:hover {
 
 .tl {
   font-weight: 300;
+}
+
+.tlink-red {
+  font-size: 48px;
+  font-weight: 700;
+  color: rgb(219, 50, 54);
+  text-decoration: none;
+}
+
+/* .nine-button {
+  width: 157px;
+  height: 35px;
+  border-radius: 8px;
+  font-size: 15;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .not-active {
+  background-color: white;
+  border: solid 1px rgb(227, 227, 227);
+  color: rgb(61, 61, 61);
+  font-weight: 400;
+} */
+
+.tlink-black {
+  text-decoration: none;
+  font-size: 15;
+  /* font-weight: 400; */
+  color: rgb(61, 61, 61);
+}
+
+.tlink-white {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.tlink-blue {
+  color: rgb(14, 125, 227);
+  text-decoration: transparent;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.tlink-button {
+  font-size: 15;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 /* misc */
@@ -275,7 +328,7 @@ img {
 
 .menus-box-outline {
   width: 414px;
-  border: solid 1px black;
+  /* border: solid 1px black; */
   display: flex;
   justify-content: center;
 }
@@ -352,7 +405,7 @@ img {
 }
 
 .small-header-title {
-  width: 297px;
+  width: 329px;
 }
 
 .co {
@@ -459,7 +512,7 @@ input[type='file'] {
   width: 157px;
   height: 35px;
   border-radius: 8px;
-  font-size: 15;
+  /* font-size: 15; */
   margin: 20px 0;
   display: flex;
   justify-content: center;

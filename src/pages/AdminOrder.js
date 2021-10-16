@@ -1,5 +1,6 @@
-import arrow from './images/arrow.png';
-import co2 from './images/co2.png';
+import arrow from '../images/arrow.png';
+import co2 from '../images/co2.png';
+import { Link } from 'react-router-dom';
 
 function AdminOrder() {
   return (
@@ -7,7 +8,6 @@ function AdminOrder() {
       <div className="desktop-container">
         <div className="box-container">
           <div className="small-header">
-            <img className="arrow" src={arrow} alt="" />
             <span className="center small-header-title">Order</span>
           </div>
           <img className="co" src={co2} alt="" />
@@ -43,11 +43,12 @@ function AdminOrder() {
               <span className="tm">$ 5.99</span>
             </div>
             <div className="add-space-30"></div>
-
             <div className="center ten-slip">Slip</div>
             <div>
               <button className="normal" type="submit">
-                Back to orders
+                <Link className="tlink-white" to="/admin-orders">
+                  Back to orders
+                </Link>
               </button>
             </div>
           </div>

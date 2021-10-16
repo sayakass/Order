@@ -1,15 +1,25 @@
+import { Link } from 'react-router-dom';
+
 function SignIn() {
   return (
     <>
       <div className="desktop-container">
         <div className="box-container">
           <div className="box-title">
-            <div className="t48 tb tc-red">Order!</div>
+            <div className="t48 tb tc-red">
+              <Link className="tlink-red" to="/">
+                Order!
+              </Link>
+            </div>
             <div className="t24 tm tc-dark">Sign in</div>
             <div>
               <span className="tr tc-ligh-grey t12">New user?</span>
               <a href="#">
-                <span className="tr tc-blue t12">&nbsp; Create an account</span>
+                <span>
+                  <Link className="tlink-blue" to="/user-register">
+                    &nbsp; Create an account
+                  </Link>
+                </span>
               </a>
             </div>
           </div>
@@ -17,13 +27,15 @@ function SignIn() {
             <input type="text" placeholder="Phone number" />
             <input type="password" placeholder="Password" />
             <button className="normal" type="submit">
-              Submit
+              <Link className="tlink-button" to="/user-menus">
+                Submit
+              </Link>
             </button>
           </form>
           <div className="center">
-            <a href="">
-              <span className="tc-blue t12 tr center">Reset your password</span>
-            </a>
+            <Link className="tlink-blue" to="/reset-password">
+              <span>Reset your password</span>
+            </Link>
           </div>
         </div>
       </div>

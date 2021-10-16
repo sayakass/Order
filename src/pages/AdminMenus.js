@@ -1,18 +1,22 @@
-import menu1 from './images/1.png';
-import menu2 from './images/2.png';
-import menu3 from './images/3.png';
-import menu4 from './images/4.png';
-import menu5 from './images/5.png';
-import menu6 from './images/6.png';
-
+import menu1 from '../images/1.png';
+import menu2 from '../images/2.png';
+import menu3 from '../images/3.png';
+import menu4 from '../images/4.png';
+import menu5 from '../images/5.png';
+import menu6 from '../images/6.png';
+import { Link } from 'react-router-dom';
 function AdminMenus() {
   return (
     <>
       <div className="desktop-container">
         <div className="nine">
           <div className="nine-button-container">
-            <button className="nine-button active">view Orders</button>
-            <button className="nine-button not-active">manage Menus</button>
+            <button className="nine-button not-active">
+              <Link className="tlink-black" to="/admin-orders">
+                view Orders
+              </Link>
+            </button>
+            <button className="nine-button active">manage Menus</button>
           </div>
           <div className="menu-box">
             <img src={menu1} alt="" />
